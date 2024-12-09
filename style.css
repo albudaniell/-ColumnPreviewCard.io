@@ -1,0 +1,109 @@
+/* Reset and Body Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", serif;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Card Styling */
+.card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    min-height: 350px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    transition: box-shadow 0.3s ease;
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Button Styling */
+.card button {
+    background-color: white;
+    color: inherit;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.card button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Card 1 Styling */
+.card1 {
+    background-color: hsl(30, 100%, 50%);
+}
+
+.card1 button {
+    background-color: hsl(30, 100%, 50%);
+    color: white;
+}
+
+.card1 button:hover {
+    background-color: hsl(30, 100%, 60%);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Card 2 Styling */
+.card2 {
+    background-color: hsl(200, 60%, 35%);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card2 button {
+    background-color: hsl(200, 60%, 35%);
+    color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card2 button:hover {
+    background-color: hsl(200, 60%, 45%);
+}
+
+/* Card 3 Styling */
+.card3 {
+    background-color: hsl(161, 61%, 33%);
+}
+
+.card3 button {
+    background-color: hsl(161, 61%, 33%);
+    color: white;
+}
+
+.card3 button:hover {
+    background-color: hsl(161, 61%, 43%);
+}
